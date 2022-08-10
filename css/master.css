@@ -192,6 +192,12 @@ body {
     word-spacing: 2px;
 }
 
+@media screen and (max-width: 374px) {
+    .footer-menu .menu li a {
+        font-size: 10px;
+    }
+}
+
 .location {
     margin-top: 30px;
 }
