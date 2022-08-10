@@ -1,9 +1,7 @@
 function sendEmail (){
     Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "relay@giiph.com",
-        Password : "4ADDDBE63A276C4057879AA47FA9063A6669",
-        To : 'recruitment@giiph.com',
+        SecureToken : "08a4f10b-910b-4feb-b04a-520e0bcdfa20",
+        To : 'lester.ramos@live.com',
         From : document.getElementById("email").value,
         Subject : "This is the subject",
         Body : "Name: " + document.getElementById("name").value
