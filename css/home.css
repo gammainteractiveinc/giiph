@@ -46,6 +46,25 @@
     border-radius: 5px;
 }
 
+@media screen and (max-width: 375px) {
+    .banner-img img {
+        width: 150px;
+    }
+
+    .home-cta a {
+        font-size: 8px;
+        padding: 14px 16px;
+    }
+
+    .home-text h1 {
+        font-size: 14px;
+    }
+    
+    .home-text p {
+        font-size: 11px;
+    }
+}
+
 @media screen and (min-width: 768px) {
 
     .home-banner-container {
@@ -96,9 +115,6 @@
 }
 
 @media screen and (min-width: 1366px) {
-
-    .banner-img img {
-    }
 
     .home-banner-container {
         justify-content: center;
@@ -181,6 +197,24 @@
     background-color: #5EBB45;
     padding: 15px 45px;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 375px) {
+    .section-title h1 {
+        font-size: 18px;
+    }
+
+    .section-title P {
+        font-size: 12px;
+    }
+
+    .svc-text h1 {
+        font-size: 13px;
+    }
+    
+    .svc-text p {
+        font-size: 11px;
+    }
 }
 
 @media screen and (min-width: 480px) {
