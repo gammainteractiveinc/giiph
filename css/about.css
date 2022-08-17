@@ -703,6 +703,13 @@
     }
 
     .text-def {
+        height: 38vh;
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    .text-def {
         height: 35vh;
     }
 }
