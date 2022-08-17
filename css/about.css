@@ -1,7 +1,10 @@
+body {
+    overflow-x: hidden;
+}
+
 .about-section-container {
     text-align: center;
     margin: 30px 40px;
-
 }
 
 .mob-view-title {
