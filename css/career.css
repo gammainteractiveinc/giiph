@@ -161,14 +161,14 @@ body {
     padding: 10px 35px;
 }
 
-.apply {
+/* .apply {
     background-color: #67BD45;
     border: none;
     color: #ffffff;
     font-weight: 400;
     text-decoration: none;
     padding: 11px 35px;
-}
+} */
 
 @media screen and (min-width: 768px) {
 
@@ -219,9 +219,9 @@ body {
         padding: 12px 45px;
     }
     
-    .apply {
+    /* .apply {
         padding: 13px 45px;
-    }
+    } */
 }
 
 @media screen and (min-width:1366px) {
@@ -231,7 +231,7 @@ body {
     }
 }
 
-body.modal-container {
+/* body.modal-container {
     position: fixed;
     overflow: hidden;
 }
@@ -320,4 +320,4 @@ body.modal-container {
         padding: 30px 50px;
         max-height: 90vh;
     }
-}
+} */
